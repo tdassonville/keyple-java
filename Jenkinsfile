@@ -21,6 +21,8 @@ node {
 
 
 
+
+
    stage('Build keyple core') {
         sh './gradlew keyple-core:build --info'
    }
